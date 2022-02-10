@@ -1,1 +1,1 @@
-# a-generative-web-help
+# a-generative-web
