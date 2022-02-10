@@ -123,8 +123,8 @@ function draw() {
   buffer1.textSize(700);
   buffer1.text(keyvalue, 0, buffer1.height);
   
-  background("#353535");
- 
+  //background("#353535");
+ background(255);
   drawLetter(keyvalue);
   pop();
   

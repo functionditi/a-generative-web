@@ -2,34 +2,57 @@ body {
     font-family: "Helvetica";
     font-size: 16px;
     
-    
   }
-
-  a{
-      font-style: normal;
-  }
-
-  body {
-    background: #FFF2ED;
+  main {
+    margin-bottom: 200%;
   }
 
   h1 {
-  font-size: 5rem;
+    font-size: 50px;
+    padding-left: 16rem;
+  }
+  .floating-menu {
+    
+    padding: 5px;;
+    width: 300px;
+    z-index: 100;
+    position: fixed;
+  }
+  .floating-menu a, 
+  .floating-menu h3 {
+    font-size: 3rem;
+    display: block;
+    margin: 0 0.5em;
+    color: #000;
+  }
+
+  .content-default__row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4rem;
+    padding-left: 16rem;
+  }
   
-  color: #F20530;
-  line-height: 1.15rem;
-}
+  .content-default__column-1 {
+    display: flex;
+    flex-basis: 100%;
+    flex-direction: column;
+    flex: 1;
+  }
+  
+  .content-default__column-2 {
+    display: flex;
+    flex-basis: 100%;
+    flex-direction: column;
+    flex: 1;
+  }
 
-    h2 {
-        font-size: 5rem;
-        
-        color: #F2A7D0;
-        line-height: 1.15rem;
-    }
-
-    h3{
-        font-size: 5rem;
-        
-        color: #F28888;
-        line-height: 1.15rem;
-    }
+  iframe {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display:flex;
+  }
+  
