@@ -142,7 +142,7 @@ color: #ff0000;
     padding: 0;
     width: 100%;
     height: flex;
-    display:flex;
+    display:inline-flex;
     border: #fff;
   }
   
