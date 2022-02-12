@@ -5,17 +5,25 @@ body {
     background-color: #fff;
   }
   main {
-    margin-bottom: 200%;
+    margin-bottom: 0%;
   }
 
   h1 {
     font-family: Space Mono;
-    font-size: 62px;
+    font-size: 50px;
     padding-left: 5rem;
+    color: #ff0000;
+    text-decoration: underline;
+  } 
+
+  h2{
+    font-family: Space Mono;
+    font-size: 20px;
+    padding-top: -40;
     color: #000;
-    text-decoration: none;
+    
   }
-  
+
   .heading1{
     text-decoration: none;
     color:#000
@@ -26,13 +34,30 @@ body {
     color: #00ff00;
   }
 
-  .colored{
-color: #ff0000;
-  }
+    .colored{
+  color: #ff0000;
+    }
 
   .colored:hover{
     color: #00ff00;
       }
+
+  
+  figure{
+    padding:0%;
+    margin: 0%;
+  }
+  figcaption{
+    color: #ff0000;
+    font-style: italic;
+    font-size: 10px;
+  }
+
+  time{
+    color: #ff0000;
+    font-style: italic;
+    font-size: 15px;
+  }
 
   .floating-menu {
     
@@ -49,7 +74,8 @@ color: #ff0000;
     color: #000;
   }
 
-  .content-default__row {
+
+  .row{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -57,85 +83,49 @@ color: #ff0000;
     padding: 1rem;
     padding-left: 5rem;
     padding-right: 5rem;
-  }
-  
-  .content-default__column-1 {
-    display: flex;
-    flex-basis: 100%;
-    flex-direction: column;
-    flex: 1;
-  }
-  
-  .content-default__column-2 {
-    display: flex;
-    flex-basis: 100%;
-    flex-direction: column;
-    flex: 1;
+    
   }
 
-  .content-default__column-3 {
-    display: flex;
-    flex-basis: 100%;
-    flex-direction: column;
-    flex: 1;
-  }
-
-  .content-default__column-4 {
-    display: flex;
-    flex-basis: 100%;
-    flex-direction: column;
-    flex: 1;
-  }
-
-  .nav-row{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 4rem;
-    padding: 1rem;
-    padding-left: 5rem;
-    padding-right: 5rem;
-  }
-
-  .nav-row a{
+  .row a{
     font-family: Space Mono;
-    font-size: 50px;
+    font-size: 60px;
     color: #0000ff;
-    padding-bottom: 2rem;
+    padding-bottom: 0rem;
     text-decoration: none;
   }
 
-  .nav-row a:hover{
+  .row a:hover{
     font-family: Space Mono;
-    font-size: 50px;
+    font-size: 60px;
     color: #00ff00;
-    padding-bottom: 2rem;
+    padding-bottom: 0rem;
     text-decoration: none;
   } 
-  .nav-column-1{
+  .column-1{
     display: flex;
     flex-basis: 100%;
     flex-direction: column;
     flex: 1;
   }
-  .nav-column-2{
+  .column-2{
     display: flex;
     flex-basis: 100%;
     flex-direction: column;
     flex: 1;
   }
-  .nav-column-3{
+  .column-3{
     display: flex;
     flex-basis: 100%;
     flex-direction: column;
     flex: 1;
   }
-  .nav-column-4{
+  .column-4{
     display: flex;
     flex-basis: 100%;
     flex-direction: column;
     flex: 1;
   }
+
 
   iframe {
     margin: 0;
@@ -146,3 +136,17 @@ color: #ff0000;
     border: #fff;
   }
   
+  img{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: flex;
+    display:inline-flex;
+  
+  }
+
+  hr{
+    border-top: 2px dotted;
+    color: #ff0000;
+    
+  }
