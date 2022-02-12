@@ -8,7 +8,7 @@ function setup() {
 }
 
 function draw() {
-  let l=5;
+  let l=10;
   
   background(255);
   yoff=0;
@@ -22,7 +22,7 @@ function draw() {
               
               push();
               dottie=map(noise(xoff, yoff), 0, 1, 0.05, 35);
-              strokeWeight(dottie/6.5);
+              strokeWeight(dottie/8.5);
               offset=frameCount*0.075*noise(xoff_, yoff_);
               
               let a=atan(map(noise(xoff, yoff), 0, 1, -TWO_PI, TWO_PI))+offset;
