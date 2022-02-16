@@ -24,6 +24,10 @@ body {
     
   }
 
+  p{
+    font-size: 14px;
+  }
+
   .heading1{
     text-decoration: none;
     color:#000
