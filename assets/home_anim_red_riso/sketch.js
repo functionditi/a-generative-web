@@ -19,7 +19,7 @@ shape1=createGraphics(windowWidth, windowHeight);
    shape3=createGraphics(windowWidth, windowHeight);
   colors=[];
   colors.push(color(0))
-  frameRate(3);
+  frameRate(1);
 }
 
 
