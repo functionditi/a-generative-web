@@ -8,10 +8,17 @@ var hoursx = timex.getHours();
 var minutesx = timex.getMinutes();
 var secondsx = timex.getSeconds();
 
+if (hoursx>12){
+    hoursx-=12;
+}
+
 //interact with html
-var clockx = document.querySelector('#clock');
-clockx.innerHTML =  hoursx + ":" + minutesx + ":" + secondsx;
+var clockx = document.querySelector('#time');
+
+clockx.innerHTML =  hoursx + ":" + minutesx + ":" + secondsx +"<br>";
 
 }
 
-getTimex()
+
+
+setInterval(getTimex, 1000)
