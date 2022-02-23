@@ -10,22 +10,24 @@ body {
 
   h1 {
     font-family: Space Mono;
-    font-size: 50px;
+    font-size: 30px;
     padding-left: 5rem;
+    padding-top: 2rem;
     color: #ff0000;
     text-decoration: underline;
   } 
 
   h2{
     font-family: Space Mono;
-    font-size: 20px;
+    font-size: 2/3rem;
     padding-top: -40;
-    color: #000;
+    color: #ff0000
     
   }
 
   p{
-    font-size: 14px;
+    font-size: 0.8rem;
+    color: #ff0000
   }
 
   .heading1{
@@ -92,15 +94,15 @@ body {
 
   .row a{
     font-family: Space Mono;
-    font-size: 60px;
-    color: #0000ff;
+    font-size: 4rem;
+    color: #ff0000;
     padding-bottom: 0rem;
     text-decoration: none;
   }
 
   .row a:hover{
     font-family: Space Mono;
-    font-size: 60px;
+    font-size: 4rem;
     color: #00ff00;
     padding-bottom: 0rem;
     text-decoration: none;
@@ -135,7 +137,7 @@ body {
     margin: 0;
     padding: 0;
     width: 100%;
-    height: flex;
+    height: 20rem;
     display:inline-flex;
     border: #fff;
   }

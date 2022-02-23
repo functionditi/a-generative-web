@@ -8,26 +8,26 @@ function setup() {
 }
 
 function draw() {
-  let l=10;
+  let l=15;
   
   background(255);
   yoff=0;
   
-  for (let i=0; i<=width; i+=5)
+  for (let i=0; i<=width; i+=10)
       {
         xoff=0;
-        for (let j=0; j<=height; j+=5)
+        for (let j=0; j<=height; j+=10)
             {
             
               
               push();
               dottie=map(noise(xoff, yoff), 0, 1, 0.05, 35);
-              strokeWeight(dottie/8.5);
+              strokeWeight(dottie/5.5);
               offset=frameCount*0.075*noise(xoff_, yoff_);
               
               let a=atan(map(noise(xoff, yoff), 0, 1, -TWO_PI, TWO_PI))+offset;
             
-                  stroke(0, 255, 0);
+                  stroke(255, 0, 0);
               translate(i, j)
               rotate(a);
               line(0, 0, l, l);

@@ -12,14 +12,14 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
    //noLoop();
   
-  red=new Riso('BRIGHTRED');
-  yellow=new Riso('BRIGHTRED');
+  red=new Riso('brightred');
+  yellow=new Riso('brightred');
 shape1=createGraphics(windowWidth, windowHeight);
   shape2=createGraphics(windowWidth, windowHeight);
    shape3=createGraphics(windowWidth, windowHeight);
   colors=[];
   colors.push(color(0))
-  frameRate(4);
+  frameRate(3);
 }
 
 
@@ -32,7 +32,7 @@ function draw() {
   shape1.strokeWeight(3);
   let elocx=random(0, width-0);
   let elocy=random(0, height-0);
-  let num=int(random(5, 30));
+  let num=int(random(20, 100));
   for (let i=0; i<num; i++){
     shape1.ellipse(elocx, elocy, i*10);
   }
@@ -45,21 +45,21 @@ function draw() {
   shape2.stroke(0);
   shape2.strokeWeight(3);
   
-  let rlocx=random(-width/2, width-0);
-  let rlocy=random(-height/2, height-0);
-  let rrot=random(PI);
-  let l=random(200, 400);
-  for (let i=0; i<25; i++){
-    shape2.push();
-    shape2.translate(rlocx, rlocy)
-    shape2.rotate(rrot);
-    shape2.line(i, i*2, l, i*7)
-    shape2.pop();
-  }
+  // let rlocx=random(-width/2, width-0);
+  // let rlocy=random(-height/2, height-0);
+  // let rrot=random(PI);
+  // let l=random(200, 400);
+  // for (let i=0; i<25; i++){
+  //   shape2.push();
+  //   shape2.translate(rlocx, rlocy)
+  //   shape2.rotate(rrot);
+  //   shape2.line(i, i*2, l, i*7)
+  //   shape2.pop();
+  // }
   
   let e1locx=random(0, width-0);
   let e1locy=random(0, height-0);
-  let num2=int(random(5, 30));
+  let num2=int(random(20, 100));
   for (let i=0; i<num2; i++){
     shape2.ellipse(e1locx, e1locy, i*13);
   }
