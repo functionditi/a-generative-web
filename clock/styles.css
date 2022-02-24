@@ -1,0 +1,31 @@
+body{
+    font-family: Space Mono;
+    font-size: 30px;
+    background-color: #010101;
+    color: #F2A2C0;
+    padding: 3rem;
+}
+
+h2{
+    font-size: 70px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+canvas{
+    width: 100%;
+    height: 50%;
+}
+
+a{
+    text-decoration: none;
+    color: #Fff;
+}
+
+a:hover{
+    color: #F2541B;
+}
+
+
