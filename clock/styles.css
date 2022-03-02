@@ -28,4 +28,13 @@ a:hover{
     color: #F2541B;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    float: left;
+  }
 

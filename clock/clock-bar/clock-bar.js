@@ -22,7 +22,7 @@ function getTime(){
 
     var ctx = canvas.getContext('2d');
     ctx.canvas.width  = window.innerWidth;
-    ctx.canvas.height = window.innerHeight;
+    ctx.canvas.height = window.innerHeight/2;
 
     ctx.fillStyle = '#AC8FBF';
     ctx.fillRect(10, 0, hoursx*10, 100);
