@@ -1,1 +1,1 @@
-# a-generative-web
+# a-gen-web
