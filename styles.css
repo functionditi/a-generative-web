@@ -1,156 +1,147 @@
-@font-face {
-    font-family: 'Formula Condensed';
-    src: url('FormulaCondensed-Regular.otf') format('opentype');
-   
-}
-
-
- body{
-     padding-left:8vw;
-     padding-top:6vw;
-     background-size: 8vw 4vw;
-     background-image:
-       linear-gradient(to right, #00ff00 1px, transparent 1px),
-       linear-gradient(to bottom, #00ff00 1px, transparent 1px);
-       height: 100%;
-       width: 70%;
- }
-
-
-
-h1{
-font-family: 'Formula Condensed';
-   font-weight: 20;
-   font-size: 14vw;
-   padding-bottom:0vw;
- margin:0vw;
- color: #00ff00;
-  -webkit-text-fill-color: #00ff00; 
-  -webkit-text-stroke-width: 0.3vw;
-  -webkit-text-stroke-color: #fff;
-}
-
-
-h2{
-  font-family: 'Formula Condensed';
-     font-weight: 20;
-     font-size: 4vw;
-     padding-bottom:2vw;
-   margin:0vw;
-   color: #00ff00;
-    -webkit-text-fill-color: #00ff00; 
-    -webkit-text-stroke-width: 0.05vw;
-    -webkit-text-stroke-color: #fff;
-  }
-
-alt{
-    font-feature-settings: "ss01";
-    -moz-font-feature-settings: "ss01";
-    -webkit-font-feature-settings: "ss01";
-    
- }
-
- p{
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    
- }
-
- a{
-  font-family: 'Formula Condensed';
-  color: #00ff00;
-  font-size: 3vw;
-  font-style: italic;
-  text-decoration: none;
-  
- }
-
- 
- .btn {
-  font-family: 'Formula Condensed';
-  font-weight: 100;
-  border: 2px solid #00ff00;
-  background-color: rgba(255, 255, 255, 10);
-  color: #00ff00;
-  padding: 7px 14px;
-  font-size: 2vw;
-  cursor: pointer;
-    border-radius: 40px;
-  }
-
-  .btn:hover{
-    color: black;
-    border: 2px solid #000;
-     }
-
-  .bigger{
-    font-size: 5vw;
-  }
-
-  .fixedonscreen{
-  position:fixed; 
-  z-index: 2;
-  }
-
-  .column{
-    display: flex;
-    flex-basis: 100%;
-    flex-direction: column;
-    flex: 1;
-    height: fit-content;
-  }
-
-  .textbox{
+    font-size: 16px;
     background-color: #fff;
-    padding: 3rem;
-    border: 2px solid #00ff00;
-    border-radius: 40px;
   }
+  main {
+    margin-bottom: 0%;
+  }
+
+  h1 {
+    font-family: Space Mono;
+    font-size: 30px;
+    padding-left: 5rem;
+    padding-top: 2rem;
+    color: #ff0000;
+    text-decoration: underline;
+  } 
+
+  h2{
+    font-family: Space Mono;
+    font-size: 2/3rem;
+    padding-top: -40;
+    color: #ff0000
+    
+  }
+
+  p{
+    font-size: 0.8rem;
+    color: #ff0000
+  }
+
+  .heading1{
+    text-decoration: none;
+    color:#000
+  }
+
+  .heading1:hover{
+    text-decoration: none;
+    color: #00ff00;
+  }
+
+    .colored{
+  color: #ff0000;
+    }
+
+  .colored:hover{
+    color: #00ff00;
+      }
+
   
-  
- 
+  figure{
+    padding:0%;
+    margin: 0%;
+  }
+  figcaption{
+    color: #ff0000;
+    font-style: italic;
+    font-size: 10px;
+  }
+
+  time{
+    color: #ff0000;
+    font-style: italic;
+    font-size: 15px;
+  }
+
+  .floating-menu {
+    
+    padding: 5px;;
+    width: 300px;
+    z-index: 100;
+    position: fixed;
+  }
+  .floating-menu a, 
+  .floating-menu h3 {
+    font-size: 2rem;
+    display: block;
+    margin: 0 0.5em;
+    color: #000;
+  }
+
 
   .row{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 4rem;
-    padding-left: 3rem;
-    padding-top: 1rem;
-  width: 50vw;
-  min-width: 50vw;
-  max-width: 50vw;
+    padding: 1rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
     
   }
 
-  .wider{
-    width: 80vw;
-    min-width: 80vw;
-    max-width: 80vw;
+  .row a{
+    font-family: Space Mono;
+    font-size: 4rem;
+    color: #ff0000;
+    padding-bottom: 0rem;
+    text-decoration: none;
   }
+
+  .row a:hover{
+    font-family: Space Mono;
+    font-size: 4rem;
+    color: #00ff00;
+    padding-bottom: 0rem;
+    text-decoration: none;
+  } 
+  .column-1{
+    display: flex;
+    flex-basis: 100%;
+    flex-direction: column;
+    flex: 1;
+  }
+  .column-2{
+    display: flex;
+    flex-basis: 100%;
+    flex-direction: column;
+    flex: 1;
+  }
+  .column-3{
+    display: flex;
+    flex-basis: 100%;
+    flex-direction: column;
+    flex: 1;
+  }
+  .column-4{
+    display: flex;
+    flex-basis: 100%;
+    flex-direction: column;
+    flex: 1;
+  }
+
 
   iframe {
     margin: 0;
     padding: 0;
-    width: 50vw;
-    height: 100vh;
+    width: 100%;
+    height: 20rem;
     display:inline-flex;
     border: #fff;
   }
-
-  figure{
-    padding:0%;
-    margin: 0%;
-  }
-  figcaption{
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    color: #00ff00;
-    font-style: italic;
-    font-size: 1vw;
-    background-color: #fff;
-    padding-top: 1rem;
-  }
+  
   img{
     margin: 0;
     padding: 0;
@@ -160,5 +151,13 @@ alt{
   
   }
 
-  
-  
+  hr{
+    border-top: 2px dotted;
+    color: #ff0000;
+    
+  }
+
+  ul{
+    color:#ff0000;
+    
+  }
